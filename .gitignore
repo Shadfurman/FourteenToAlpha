@@ -1,0 +1,48 @@
+# --- OS / Editor / Misc ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.p
+*.log
+
+# --- Virtual Envs ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+*.ipynb_convert
+# Colab-specific temp
+*.bak
+*.tmp
+*~ 
+
+# --- Project outputs ---
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.csv
+*.parquet
+
+# --- Models / Weights ---
+*.pt
+*.pth
+*.ckpt
+
+# --- Data (Google Drive or external only) ---
+data/
+data_raw/
+data_processed/
